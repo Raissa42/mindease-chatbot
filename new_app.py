@@ -316,8 +316,8 @@ placeholders = {
     "English":   "Talk to MindEase... e.g. 'I'm very stressed about exams'",
     "Hindi":     "MindEase से बात करें... जैसे 'मुझे परीक्षा की बहुत चिंता है'",
     "Mongolian": "MindEase-тэй ярилцана уу...",
-    "French": "Parlez à MindEase... ex: 'Je suis très stressé par les examens'"
-    #"Malagasy": "Miresaha amin'i MindEase... ohatra: 'Sahirana amin'ny fanadinana aho'"
+    "French": "Parlez à MindEase... ex: 'Je suis très stressé par les examens'",
+    "Malagasy": "Miresaha amin'i MindEase... ohatra: 'Sahirana amin'ny fanadinana aho'"
         
 }
 
