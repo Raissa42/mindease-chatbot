@@ -121,19 +121,6 @@ LANGUAGE_PROMPTS = {
     "Hindi":     "Always respond in Hindi (use Devanagari script). You may mix in simple English words when needed.",
     "Mongolian": "Always respond in Mongolian (use Cyrillic script). You may mix in simple English words when needed.",
     "French":   "Always respond in French. Use natural, conversational French.",
-    "Malagasy": """Always respond ONLY in Malagasy.
-
-Use natural, fluent, and conversational Malagasy that sounds human and supportive (not robotic or translated).
-
-Guidelines:
-- Use clear and simple Malagasy that students can easily understand
-- Be warm, empathetic, and encouraging in tone
-- Fully answer the user's question with helpful explanation (not too short, not too long)
-- If giving advice, make it practical and easy to follow
-- Avoid mixing English unless absolutely necessary
-- Avoid literal or awkward translations
-
-Your response should feel like a caring Malagasy-speaking senior student helping a junior.""",
 }
 
 # Starter prompts per language
@@ -161,12 +148,6 @@ STARTERS = {
         "Je n'arrive pas à me concentrer en étudiant",
         "J'ai peur des placements",
         "Je me sens très seul à l'internat",
-    ],
-    "Malagasy": [
-        "Tsy afaka tamin'ny fanadinana aho 😞",
-        "Tsy afaka mifantoka amin'ny fianarana aho",
-        "Matahotra ny placement aho",
-        "Mahatsiaro ho irery aho ao amin'ny trano fonenana",
     ],
 }
 
@@ -248,7 +229,7 @@ st.markdown("""
 # ════════════════════════════════════════════════════════
 # LANGUAGE SELECTOR  (top of page, visible to user)
 # ════════════════════════════════════════════════════════
-st.markdown('<p class="lang-label">🌐 Select Language / भाषा चुनें / Хэл сонгоно уу / Choisir la langue / Misafidiana fiteny</p>', unsafe_allow_html=True)
+st.markdown('<p class="lang-label">🌐 Select Language / भाषा चुनें / Хэл сонгоно уу / Choisir la langue</p>', unsafe_allow_html=True)
 
 lang_col, _ = st.columns([2, 3])
 with lang_col:
@@ -329,7 +310,6 @@ placeholders = {
     "Hindi":     "MindEase से बात करें... जैसे 'मुझे परीक्षा की बहुत चिंता है'",
     "Mongolian": "MindEase-тэй ярилцана уу...",
     "French": "Parlez à MindEase... ex: 'Je suis très stressé par les examens'",
-    "Malagasy": "Miresaha amin'i MindEase... ohatra: 'Sahirana amin'ny fanadinana aho'"
         
 }
 
