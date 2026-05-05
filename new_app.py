@@ -113,7 +113,6 @@ LANGUAGES = {
     "🇮🇳  Hindi":     "Hindi",
     "🇲🇳  Mongolian": "Mongolian",
     "🇫🇷  Français":  "French",     # ✅ ADDED
-    "🇲🇬  Malagasy":  "Malagasy"
 }
 
 LANGUAGE_PROMPTS = {
