@@ -10,7 +10,7 @@ import os
 API_KEY = os.environ.get("GEMINI_API_KEY", "")   # ← set this in deployment secrets
 
 # Fixed model parameters — not exposed to users
-TEMPERATURE   = 0.7
+TEMPERATURE   = 0.8
 TOP_P         = 0.9
 MAX_TOKENS    = 400
 MODEL_NAME    = "gemini-2.5-flash"
